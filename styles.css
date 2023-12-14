@@ -52,6 +52,27 @@ section{
     position: relative;
     top:-60px;
   }
+ @media screen and (max-width:480px)
+  {
+    .logo{
+        border-radius: 50%;
+        width: 45px;
+        height:auto;
+        float: left;
+        margin-bottom: 5px;
+        position: relative;
+        bottom:-13px;
+      }
+      .logos{
+        border-radius: 50%;
+        width: 50px;
+        height:auto;
+        float: right;
+        margin-bottom: 6px;
+        position: relative;
+        top:-15px;
+      }
+  }
 .bolded
 {
     font-weight: bold;
